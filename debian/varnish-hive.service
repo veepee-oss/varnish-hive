@@ -1,0 +1,11 @@
+[Unit]
+Description=Varnish hive replicator
+After=network-online.target varnish.service
+
+[Service]
+Type=forking
+EnvironmentFile=/etc/default/varnish-hive
+ExecStart=/usr/bin/varnishhive -f ${VARNISHHIVE_INI} -D
+
+[Install]
+WantedBy=multi-user.target

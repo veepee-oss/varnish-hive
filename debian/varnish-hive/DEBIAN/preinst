@@ -1,0 +1,17 @@
+#!/bin/sh
+VARNISHHIVE_USER="varnishhive"
+VARNISHHIVE_USER_SHELL=$(which nologin)
+VARNISHHIVE_USER_HOME="/etc/varnish"
+VARNISH_GROUP="varnish"
+
+user_exists=$(id -u ${VARNISHHIVE_USER} > /dev/null 2>&1)
+if [ $? = 0 ]; then
+    exit 0
+else
+  user_add_opts=""
+  if grep ${VARNISH_GROUP} /etc/group > /dev/null; then
+    user_add_opts="$user_add_opts -G ${VARNISH_GROUP}"
+  fi
+  useradd -s ${VARNISHHIVE_USER_SHELL} -d ${VARNISHHIVE_USER_HOME} ${user_add_opts} ${VARNISHHIVE_USER}
+fi
+

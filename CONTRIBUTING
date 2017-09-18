@@ -1,0 +1,18 @@
+Contributing to Varnish Cache
+=============================
+
+Official development tree is here:
+
+    https://git.vpgrp.io/vp-labs/varnish-hive/raw/master/CONTRIBUTING
+
+These days we prefer patches as pull requests directly to that tree.
+
+Bugreports go there too.
+
+Github pull requests
+--------------------
+
+Pull requests are handled like other tickets.
+
+Trivial pull requests (fix typos, etc) are welcomed, but they may be commited
+by a core team member and the author credited in the commit message.

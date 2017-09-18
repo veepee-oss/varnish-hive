@@ -1,0 +1,10 @@
+Package: varnish-hive
+Version: 0.5
+Architecture: amd64
+Maintainer: jambon69 <lgiesen@vente-privee.com>
+Installed-Size: 142
+Depends: init-system-helpers (>= 1.18~)
+Section: devel
+Priority: optional
+Description: Cache replicator for varnish
+ Varnish cache replicator

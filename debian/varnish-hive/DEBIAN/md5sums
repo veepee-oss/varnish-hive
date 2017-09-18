@@ -1,0 +1,4 @@
+25a7db93fea0972693095d26975b6864  lib/systemd/system/varnish-hive.service
+41b54383c6f325195babda66df208622  usr/bin/varnishhive
+dd135b90dbb857a18daf5eea828233c7  usr/share/doc/varnish-hive/changelog.gz
+f4f29c7602dbc121cd25c5bf28ee8566  usr/share/doc/varnish-hive/copyright

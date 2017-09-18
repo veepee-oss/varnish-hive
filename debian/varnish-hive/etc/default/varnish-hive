@@ -1,0 +1,5 @@
+VARNISHHIVE_INI="/etc/varnish/varnishhive.ini"
+VARNISHHIVE_LOG="/var/log/varnish/varnishhive.log"
+VARNISHHIVE_VERBOSITY=0
+
+DAEMON_OPTS="-D -f ${VARNISHHIVE_INI}"

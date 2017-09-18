@@ -1,0 +1,4 @@
+etc/init.d/varnish-hive /etc/init.d/
+etc/default/varnish-hive /etc/default/
+etc/varnish/varnishhive.ini /etc/varnish/
+etc/varnish/varnishhive.vcl /etc/varnish/

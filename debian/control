@@ -1,0 +1,13 @@
+Source: varnish-hive
+Section: devel
+Priority: optional
+Maintainer: jambon69 <lgiesen@vente-privee.com>
+Build-Depends: debhelper (>=9),
+	       dh-systemd
+Standards-Version: 3.9.4
+
+Package: varnish-hive
+Architecture: any
+Depends: ${misc:Depends}
+Description: Cache replicator for varnish
+ Varnish cache replicator

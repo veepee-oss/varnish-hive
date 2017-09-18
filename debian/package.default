@@ -1,0 +1,8 @@
+[hive]
+port = 8888
+host = 127.0.0.1
+varnish_port = 80
+hive_listener = 8889
+[node 1]
+port = 6081
+host = 10.138.11.144
