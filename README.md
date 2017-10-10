@@ -92,7 +92,7 @@ sxbri <sabdellatif@vente-privee.com>
 
 Alain ROMEYER <aromeyer@vente-privee.com>
 
-(guidance) pourlpOrg <gchehade@vente-privee.com>
+(guidance) poolpOrg <gchehade@vente-privee.com>
 
 ## Reclaimer
 
