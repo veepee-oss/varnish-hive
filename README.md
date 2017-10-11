@@ -94,10 +94,6 @@ Alain ROMEYER <aromeyer@vente-privee.com>
 
 (guidance) poolpOrg <gchehade@vente-privee.com>
 
-## Reclaimer
-
-For every reclaims, contact gilludururururu, he'll answer ASAP !
-
 ## Development
 
 Please read carefully [CONTRIBUTING]
