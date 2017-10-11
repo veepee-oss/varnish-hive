@@ -101,7 +101,7 @@ For every reclaims, contact gilludururururu, he'll answer ASAP !
 ## Development
 
 Please read carefully [CONTRIBUTING]
-(https://git.vpgrp.io/vp-labs/varnish-hive/raw/master/CONTRIBUTING)
+(https://raw.githubusercontent.com/vente-privee/varnish-hive/master/CONTRIBUTING)
 before making a merge request.
 
 ## Miscellaneous
